@@ -12,7 +12,7 @@ jobs:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.rrfsajn.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: lFhlXkjLSSQ${{ secrets.MONGODB_PASSWORD }}6a9ui
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
